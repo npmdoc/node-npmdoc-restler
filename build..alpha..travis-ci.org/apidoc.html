@@ -207,6 +207,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan"></span>restler</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">restler.</span>Request.prototype</span>
 
         </li>
@@ -580,6 +586,160 @@
             function <span class="apidocSignatureSpan">restler.parsers.</span>yaml
             <span class="apidocSignatureSpan">(data, callback)</span>
             </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.restler.restler">module restler.restler</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.Request">
+            function <span class="apidocSignatureSpan">restler.restler.</span>Request
+            <span class="apidocSignatureSpan">(uri, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.Service">
+            function <span class="apidocSignatureSpan">restler.restler.</span>Service
+            <span class="apidocSignatureSpan">(defaults)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.data">
+            function <span class="apidocSignatureSpan">restler.restler.</span>data
+            <span class="apidocSignatureSpan">(filename, contentType, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.del">
+            function <span class="apidocSignatureSpan">restler.restler.</span>del
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.file">
+            function <span class="apidocSignatureSpan">restler.restler.</span>file
+            <span class="apidocSignatureSpan">(path, filename, fileSize, encoding, contentType)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.get">
+            function <span class="apidocSignatureSpan">restler.restler.</span>get
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.head">
+            function <span class="apidocSignatureSpan">restler.restler.</span>head
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.json">
+            function <span class="apidocSignatureSpan">restler.restler.</span>json
+            <span class="apidocSignatureSpan">(url, data, options, method)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.patch">
+            function <span class="apidocSignatureSpan">restler.restler.</span>patch
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.patchJson">
+            function <span class="apidocSignatureSpan">restler.restler.</span>patchJson
+            <span class="apidocSignatureSpan">(url, data, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.post">
+            function <span class="apidocSignatureSpan">restler.restler.</span>post
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.postJson">
+            function <span class="apidocSignatureSpan">restler.restler.</span>postJson
+            <span class="apidocSignatureSpan">(url, data, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.put">
+            function <span class="apidocSignatureSpan">restler.restler.</span>put
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.putJson">
+            function <span class="apidocSignatureSpan">restler.restler.</span>putJson
+            <span class="apidocSignatureSpan">(url, data, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.request">
+            function <span class="apidocSignatureSpan">restler.restler.</span>request
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.restler.restler.service">
+            function <span class="apidocSignatureSpan">restler.restler.</span>service
+            <span class="apidocSignatureSpan">(constructor, defaults, methods)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">restler.restler.</span>parsers</span>
 
         </li>
 
@@ -971,7 +1131,23 @@ TODO
   process.nextTick(request.run.bind(request));
   return request;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (!this.options.data) {
+    this.headers[&#x27;Content-Length&#x27;] = 0;
+  }
+}
+
+var proto = (this.url.protocol == &#x27;https:&#x27;) ? https : http;
+
+this.request = proto.<span class="apidocCodeKeywordSpan">request</span>({
+  host: this.url.hostname,
+  port: this.url.port,
+  path: this._fullPath(),
+  method: this.options.method,
+  headers: this.headers,
+  rejectUnauthorized: this.options.rejectUnauthorized,
+  agent: this.options.agent
+...</pre></li>
     </ul>
 
 
@@ -1006,6 +1182,8 @@ update: function(message) {
   return this.post(&#x27;/statuses/update.json&#x27;, { data: { status: message } });
 ...</pre></li>
     </ul>
+
+
 
 
 
@@ -1144,7 +1322,23 @@ update: function(message) {
     this.headers[&#x27;Authorization&#x27;] = &#x22;Bearer &#x22; + this.options.accessToken;
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// stringify query given in options of not given in URL
+if (this.options.query &#x26;&#x26; !this.url.query) {
+  if (typeof this.options.query == &#x27;object&#x27;)
+    this.url.query = qs.stringify(this.options.query);
+  else this.url.query = this.options.query;
+}
+
+this.<span class="apidocCodeKeywordSpan">_applyAuth</span>();
+
+if (this.options.multipart) {
+  this.headers[&#x27;Content-Type&#x27;] = &#x27;multipart/form-data; boundary=&#x27; + multipart.defaultBoundary;
+  var multipart_size = multipart.sizeOf(this.options.data, multipart.defaultBoundary);
+  if (typeof multipart_size === &#x27;number&#x27; &#x26;&#x26; multipart_size === multipart_size) {
+      this.headers[&#x27;Content-Length&#x27;] = multipart_size;
+  }
+...</pre></li>
     </ul>
 
 
@@ -1164,7 +1358,23 @@ update: function(message) {
     callback(null, body);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+response.on(&#x27;data&#x27;, function(chunk) {
+  body += chunk;
+});
+
+response.on(&#x27;end&#x27;, function() {
+  response.rawEncoded = body;
+  self.<span class="apidocCodeKeywordSpan">_decode</span>(new Buffer(body, &#x27;binary&#x27;), response, function(err, body) {
+    if (err) {
+      self._fireError(err, response);
+      return;
+    }
+    response.raw = body;
+    body = self._iconv(body, response);
+    self._encode(body, response, function(err, body) {
+...</pre></li>
     </ul>
 
 
@@ -1189,7 +1399,23 @@ update: function(message) {
     }
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+self._decode(new Buffer(body, &#x27;binary&#x27;), response, function(err, body) {
+  if (err) {
+    self._fireError(err, response);
+    return;
+  }
+  response.raw = body;
+  body = self._iconv(body, response);
+  self.<span class="apidocCodeKeywordSpan">_encode</span>(body, response, function(err, body) {
+    if (err) {
+      self._fireError(err, response);
+    } else {
+      self._fireSuccess(body, response);
+    }
+  });
+});
+...</pre></li>
     </ul>
 
 
@@ -1207,7 +1433,23 @@ update: function(message) {
     clearTimeout(self.options.timeoutFn);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      self.options.parser.call(response, body, callback);
+    } else {
+      callback(null, body);
+    }
+  }
+},
+_fireError: function(err, response) {
+  this.<span class="apidocCodeKeywordSpan">_fireCancelTimeout</span>();
+  this.emit(&#x27;error&#x27;, err, response);
+  this.emit(&#x27;complete&#x27;, err, response);
+},
+_fireCancelTimeout: function(){
+  var self = this;
+  if(self.options.timeout){
+    clearTimeout(self.options.timeoutFn);
+...</pre></li>
     </ul>
 
 
@@ -1224,7 +1466,23 @@ update: function(message) {
   this.emit(&#x27;error&#x27;, err, response);
   this.emit(&#x27;complete&#x27;, err, response);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  } else {
+      self.url = url.parse(url.resolve(self.url.href, response.headers[&#x27;location&#x27;]));
+      self._retry();
+      // todo handle somehow infinite redirects
+  }
+} catch(err) {
+  err.message = &#x27;Failed to follow redirect: &#x27; + err.message;
+  self.<span class="apidocCodeKeywordSpan">_fireError</span>(err, response);
+}
+    } else {
+var body = &#x27;&#x27;;
+
+// When using browserify, response.setEncoding is not defined
+if (typeof response.setEncoding == &#x27;function&#x27;)
+  response.setEncoding(&#x27;binary&#x27;);
+...</pre></li>
     </ul>
 
 
@@ -1246,7 +1504,23 @@ update: function(message) {
   this.emit(response.statusCode.toString(), body, response);
   this.emit(&#x27;complete&#x27;, body, response);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        }
+        response.raw = body;
+        body = self._iconv(body, response);
+        self._encode(body, response, function(err, body) {
+          if (err) {
+            self._fireError(err, response);
+          } else {
+            self.<span class="apidocCodeKeywordSpan">_fireSuccess</span>(body, response);
+          }
+        });
+      });
+    });
+  }
+},
+_decode: function(body, response, callback) {
+...</pre></li>
     </ul>
 
 
@@ -1264,7 +1538,23 @@ update: function(message) {
   this.timedout = true;
   this.request.abort();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.emit(&#x27;complete&#x27;, body, response);
+},
+_makeRequest: function() {
+  var self = this;
+  var timeoutMs = self.options.timeout;
+  if(timeoutMs){
+    self.options.timeoutFn = setTimeout(function(){
+      self.<span class="apidocCodeKeywordSpan">_fireTimeout</span>(timeoutMs);
+    },timeoutMs);
+  }
+  this.request.on(&#x27;response&#x27;, function(response) {
+    self._fireCancelTimeout();
+    self.emit(&#x27;response&#x27;, response);
+    self._responseHandler(response);
+  }).on(&#x27;error&#x27;, function(err) {
+...</pre></li>
     </ul>
 
 
@@ -1282,7 +1572,23 @@ update: function(message) {
   if (this.url.query) path += &#x27;?&#x27; + this.url.query;
   return path;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+var proto = (this.url.protocol == &#x27;https:&#x27;) ? https : http;
+
+this.request = proto.request({
+  host: this.url.hostname,
+  port: this.url.port,
+  path: this.<span class="apidocCodeKeywordSpan">_fullPath</span>(),
+  method: this.options.method,
+  headers: this.headers,
+  rejectUnauthorized: this.options.rejectUnauthorized,
+  agent: this.options.agent
+});
+
+this._makeRequest();
+...</pre></li>
     </ul>
 
 
@@ -1309,7 +1615,23 @@ update: function(message) {
   }
   return body;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+response.rawEncoded = body;
+self._decode(new Buffer(body, &#x27;binary&#x27;), response, function(err, body) {
+  if (err) {
+    self._fireError(err, response);
+    return;
+  }
+  response.raw = body;
+  body = self.<span class="apidocCodeKeywordSpan">_iconv</span>(body, response);
+  self._encode(body, response, function(err, body) {
+    if (err) {
+      self._fireError(err, response);
+    } else {
+      self._fireSuccess(body, response);
+    }
+  });
+...</pre></li>
     </ul>
 
 
@@ -1324,7 +1646,23 @@ update: function(message) {
     <li>description and source-code<pre class="apidocCodePre">_isRedirect = function (response) {
   return ([301, 302, 303, 307].indexOf(response.statusCode) &#x3e;= 0);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+} else if (this.options.accessToken) {
+  this.headers[&#x27;Authorization&#x27;] = &#x22;Bearer &#x22; + this.options.accessToken;
+}
+  },
+  _responseHandler: function(response) {
+var self = this;
+
+if (self.<span class="apidocCodeKeywordSpan">_isRedirect</span>(response) &#x26;&#x26; self.options.followRedirects) {
+  try {
+    // 303 should redirect and retrieve content with the GET method
+    // http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.4
+    if (response.statusCode === 303) {
+        self.url    = url.parse(url.resolve(self.url.href, response.headers[&#x27;location&#x27;]));
+        self.options.method = &#x27;GET&#x27;;
+        delete self.options.data;
+...</pre></li>
     </ul>
 
 
@@ -1355,7 +1693,23 @@ update: function(message) {
     }
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  path: this._fullPath(),
+  method: this.options.method,
+  headers: this.headers,
+  rejectUnauthorized: this.options.rejectUnauthorized,
+  agent: this.options.agent
+});
+
+this.<span class="apidocCodeKeywordSpan">_makeRequest</span>();
+}
+
+util.inherits(Request, events.EventEmitter);
+
+mixin(Request.prototype, {
+_isRedirect: function(response) {
+  return ([301, 302, 303, 307].indexOf(response.statusCode) &#x3e;= 0);
+...</pre></li>
     </ul>
 
 
@@ -1419,7 +1773,23 @@ update: function(message) {
     });
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    self.options.timeoutFn = setTimeout(function(){
+      self._fireTimeout(timeoutMs);
+    },timeoutMs);
+  }
+  this.request.on(&#x27;response&#x27;, function(response) {
+    self._fireCancelTimeout();
+    self.emit(&#x27;response&#x27;, response);
+    self.<span class="apidocCodeKeywordSpan">_responseHandler</span>(response);
+  }).on(&#x27;error&#x27;, function(err) {
+    self._fireCancelTimeout();
+    if (!self.aborted) {
+      self._fireError(err, null);
+    }
+  });
+},
+...</pre></li>
     </ul>
 
 
@@ -1439,7 +1809,23 @@ update: function(message) {
   Request.call(this, this.url.href, this.options); // reusing request object to handle recursive calls and remember listeners
   this.run();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+try {
+  // 303 should redirect and retrieve content with the GET method
+  // http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.4
+  if (response.statusCode === 303) {
+      self.url    = url.parse(url.resolve(self.url.href, response.headers[&#x27;location&#x27;]));
+      self.options.method = &#x27;GET&#x27;;
+      delete self.options.data;
+      self.<span class="apidocCodeKeywordSpan">_retry</span>();
+  } else {
+      self.url = url.parse(url.resolve(self.url.href, response.headers[&#x27;location&#x27;]));
+      self._retry();
+      // todo handle somehow infinite redirects
+  }
+} catch(err) {
+  err.message = &#x27;Failed to follow redirect: &#x27; + err.message;
+...</pre></li>
     </ul>
 
 
@@ -1570,7 +1956,23 @@ console.log(data[0].message); // auto convert to object
 
   return this;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+},
+_retry: function() {
+  this.request.removeAllListeners().on(&#x27;error&#x27;, function() {});
+  if (this.request.finished) {
+    this.request.abort();
+  }
+  Request.call(this, this.url.href, this.options); // reusing request object to handle recursive calls and remember listeners
+  this.<span class="apidocCodeKeywordSpan">run</span>();
+},
+run: function() {
+  var self = this;
+  if (this.options.multipart) {
+    multipart.write(this.request, this.options.data, function() {
+      self.request.end();
+    });
+...</pre></li>
     </ul>
 
 
@@ -1616,7 +2018,23 @@ console.log(data[0].message); // auto convert to object
   if (this.baseURL) return url.resolve(this.baseURL, path);
   else return path;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+this.defaults = defaults;
+}
+
+mixin(Service.prototype, {
+request: function(path, options) {
+  return request(this.<span class="apidocCodeKeywordSpan">_url</span>(path), this._withDefaults(options));
+},
+get: function(path, options) {
+  return get(this._url(path), this._withDefaults(options));
+},
+patch: function(path, options) {
+  return patch(this._url(path), this._withDefaults(options));
+},
+...</pre></li>
     </ul>
 
 
@@ -1632,7 +2050,23 @@ console.log(data[0].message); // auto convert to object
   var o = mixin({}, this.defaults);
   return mixin(o, options);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+this.defaults = defaults;
+}
+
+mixin(Service.prototype, {
+request: function(path, options) {
+  return request(this._url(path), this.<span class="apidocCodeKeywordSpan">_withDefaults</span>(options));
+},
+get: function(path, options) {
+  return get(this._url(path), this._withDefaults(options));
+},
+patch: function(path, options) {
+  return patch(this._url(path), this._withDefaults(options));
+},
+...</pre></li>
     </ul>
 
 
@@ -1768,7 +2202,23 @@ rest.<span class="apidocCodeKeywordSpan">post</span>(&#x27;http://user:pass@serv
     <li>description and source-code<pre class="apidocCodePre">request = function (path, options) {
   return request(this._url(path), this._withDefaults(options));
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (!this.options.data) {
+    this.headers[&#x27;Content-Length&#x27;] = 0;
+  }
+}
+
+var proto = (this.url.protocol == &#x27;https:&#x27;) ? https : http;
+
+this.request = proto.<span class="apidocCodeKeywordSpan">request</span>({
+  host: this.url.hostname,
+  port: this.url.port,
+  path: this._fullPath(),
+  method: this.options.method,
+  headers: this.headers,
+  rejectUnauthorized: this.options.rejectUnauthorized,
+  agent: this.options.agent
+...</pre></li>
     </ul>
 
 
@@ -2015,6 +2465,447 @@ _isString: function(obj) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.restler.restler" id="apidoc.module.restler.restler">module restler.restler</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.Request" id="apidoc.element.restler.restler.Request">
+        function <span class="apidocSignatureSpan">restler.restler.</span>Request
+        <span class="apidocSignatureSpan">(uri, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Request(uri, options) {
+  events.EventEmitter.call(this);
+  this.url = url.parse(uri);
+  this.options = options;
+  this.headers = {
+    &#x27;Accept&#x27;: &#x27;*/*&#x27;,
+    &#x27;User-Agent&#x27;: &#x27;Restler for node.js&#x27;,
+    &#x27;Host&#x27;: this.url.host
+  };
+
+  this.headers[&#x27;Accept-Encoding&#x27;] = &#x27;gzip, deflate&#x27;;
+
+  mixin(this.headers, options.headers || {});
+
+  // set port and method defaults
+  if (!this.url.port) this.url.port = (this.url.protocol == &#x27;https:&#x27;) ? &#x27;443&#x27; : &#x27;80&#x27;;
+  if (!this.options.method) this.options.method = (this.options.data) ? &#x27;POST&#x27; : &#x27;GET&#x27;;
+  if (typeof this.options.followRedirects == &#x27;undefined&#x27;) this.options.followRedirects = true;
+
+  // stringify query given in options of not given in URL
+  if (this.options.query &#x26;&#x26; !this.url.query) {
+    if (typeof this.options.query == &#x27;object&#x27;)
+      this.url.query = qs.stringify(this.options.query);
+    else this.url.query = this.options.query;
+  }
+
+  this._applyAuth();
+
+  if (this.options.multipart) {
+    this.headers[&#x27;Content-Type&#x27;] = &#x27;multipart/form-data; boundary=&#x27; + multipart.defaultBoundary;
+    var multipart_size = multipart.sizeOf(this.options.data, multipart.defaultBoundary);
+    if (typeof multipart_size === &#x27;number&#x27; &#x26;&#x26; multipart_size === multipart_size) {
+        this.headers[&#x27;Content-Length&#x27;] = multipart_size;
+    }
+    else {
+        console.log(&#x22;Building multipart request without Content-Length header, please specify all file sizes&#x22;);
+    }
+  } else {
+    if (typeof this.options.data == &#x27;object&#x27; &#x26;&#x26; !Buffer.isBuffer(this.options.data)) {
+      this.options.data = qs.stringify(this.options.data);
+      this.headers[&#x27;Content-Type&#x27;] = &#x27;application/x-www-form-urlencoded&#x27;;
+      this.headers[&#x27;Content-Length&#x27;] = this.options.data.length;
+    }
+    if (typeof this.options.data == &#x27;string&#x27;) {
+      var buffer = new Buffer(this.options.data, this.options.encoding || &#x27;utf8&#x27;);
+      this.options.data = buffer;
+      this.headers[&#x27;Content-Length&#x27;] = buffer.length;
+    }
+    if (!this.options.data) {
+      this.headers[&#x27;Content-Length&#x27;] = 0;
+    }
+  }
+
+  var proto = (this.url.protocol == &#x27;https:&#x27;) ? https : http;
+
+  this.request = proto.request({
+    host: this.url.hostname,
+    port: this.url.port,
+    path: this._fullPath(),
+    method: this.options.method,
+    headers: this.headers,
+    rejectUnauthorized: this.options.rejectUnauthorized,
+    agent: this.options.agent
+  });
+
+  this._makeRequest();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.Service" id="apidoc.element.restler.restler.Service">
+        function <span class="apidocSignatureSpan">restler.restler.</span>Service
+        <span class="apidocSignatureSpan">(defaults)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Service(defaults) {
+  if (defaults.baseURL) {
+   this.baseURL = defaults.baseURL;
+   delete defaults.baseURL;
+  }
+
+  this.defaults = defaults;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.data" id="apidoc.element.restler.restler.data">
+        function <span class="apidocSignatureSpan">restler.restler.</span>data
+        <span class="apidocSignatureSpan">(filename, contentType, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">data = function (filename, contentType, data) {
+  return new Data(filename, contentType, data);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.del" id="apidoc.element.restler.restler.del">
+        function <span class="apidocSignatureSpan">restler.restler.</span>del
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function del(url, options) {
+  return request(url, shortcutOptions(options, &#x27;DELETE&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.file" id="apidoc.element.restler.restler.file">
+        function <span class="apidocSignatureSpan">restler.restler.</span>file
+        <span class="apidocSignatureSpan">(path, filename, fileSize, encoding, contentType)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">file = function (path, filename, fileSize, encoding, contentType) {
+  return new File(path, filename, fileSize, encoding, contentType)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// multipart request sending a 321567 byte long file using https
+rest.post(&#x27;https://twaud.io/api/v1/upload.json&#x27;, {
+  multipart: true,
+  username: &#x27;danwrong&#x27;,
+  password: &#x27;wouldntyouliketoknow&#x27;,
+  data: {
+    &#x27;sound[message]&#x27;: &#x27;hello from restler!&#x27;,
+    &#x27;sound[file]&#x27;: rest.<span class="apidocCodeKeywordSpan">file</span>(&#x27;doug-e-fresh_the-show.mp3&#x27;, null, 321567
+, null, &#x27;audio/mpeg&#x27;)
+  }
+}).on(&#x27;complete&#x27;, function(data) {
+  console.log(data.audio_url);
+});
+
+// create a service constructor for very easy API wrappers a la HTTParty...
+Twitter = rest.service(function(u, p) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.get" id="apidoc.element.restler.restler.get">
+        function <span class="apidocSignatureSpan">restler.restler.</span>get
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function get(url, options) {
+ return request(url, shortcutOptions(options, &#x27;GET&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+Example usage
+-------------
+
+```javascript
+var rest = require(&#x27;./restler&#x27;);
+
+rest.<span class="apidocCodeKeywordSpan">get</span>(&#x27;http://google.com&#x27;).on(&#x27;complete&#x27;, function(result) {
+  if (result instanceof Error) {
+    console.log(&#x27;Error:&#x27;, result.message);
+    this.retry(5000); // try again after 5 sec
+  } else {
+    console.log(result);
+  }
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.head" id="apidoc.element.restler.restler.head">
+        function <span class="apidocSignatureSpan">restler.restler.</span>head
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function head(url, options) {
+  return request(url, shortcutOptions(options, &#x27;HEAD&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.json" id="apidoc.element.restler.restler.json">
+        function <span class="apidocSignatureSpan">restler.restler.</span>json
+        <span class="apidocSignatureSpan">(url, data, options, method)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function json(url, data, options, method) {
+  options = options || {};
+  options.parser = (typeof options.parser !== &#x22;undefined&#x22;) ? options.parser : parsers.auto;
+  options.headers = options.headers || {};
+  options.headers[&#x27;content-type&#x27;] = &#x27;application/json&#x27;;
+  options.data = JSON.stringify(data || {});
+  options.method = method || &#x27;GET&#x27;;
+  return request(url, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.patch" id="apidoc.element.restler.restler.patch">
+        function <span class="apidocSignatureSpan">restler.restler.</span>patch
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function patch(url, options) {
+  return request(url, shortcutOptions(options, &#x27;PATCH&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.patchJson" id="apidoc.element.restler.restler.patchJson">
+        function <span class="apidocSignatureSpan">restler.restler.</span>patchJson
+        <span class="apidocSignatureSpan">(url, data, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function patchJson(url, data, options) {
+  return json(url, data, options, &#x27;PATCH&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.post" id="apidoc.element.restler.restler.post">
+        function <span class="apidocSignatureSpan">restler.restler.</span>post
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function post(url, options) {
+  return request(url, shortcutOptions(options, &#x27;POST&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+rest.get(&#x27;http://someslowdomain.com&#x27;,{timeout: 10000}).on(&#x27;timeout&#x27;, function(ms){
+  console.log(&#x27;did not return within &#x27;+ms+&#x27; ms&#x27;);
+}).on(&#x27;complete&#x27;,function(data,response){
+  console.log(&#x27;did not time out&#x27;);
+});
+
+rest.<span class="apidocCodeKeywordSpan">post</span>(&#x27;http://user:pass@service.com/action&#x27;, {
+  data: { id: 334 },
+}).on(&#x27;complete&#x27;, function(data, response) {
+  if (response.statusCode == 201) {
+    // you can get at the raw response like this...
+  }
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.postJson" id="apidoc.element.restler.restler.postJson">
+        function <span class="apidocSignatureSpan">restler.restler.</span>postJson
+        <span class="apidocSignatureSpan">(url, data, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function postJson(url, data, options) {
+  return json(url, data, options, &#x27;POST&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var client = new Twitter(&#x27;danwrong&#x27;, &#x27;password&#x27;);
+client.update(&#x27;Tweeting using a Restler service thingy&#x27;).on(&#x27;complete&#x27;, function(data) {
+console.log(data);
+});
+
+// post JSON
+var jsonData = { id: 334 };
+rest.<span class="apidocCodeKeywordSpan">postJson</span>(&#x27;http://example.com/action&#x27;, jsonData).on(&#x27;complete&#x27
+;, function(data, response) {
+// handle response
+});
+
+// put JSON
+var jsonData = { id: 334 };
+rest.putJson(&#x27;http://example.com/action&#x27;, jsonData).on(&#x27;complete&#x27;, function(data, response) {
+// handle response
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.put" id="apidoc.element.restler.restler.put">
+        function <span class="apidocSignatureSpan">restler.restler.</span>put
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function put(url, options) {
+  return request(url, shortcutOptions(options, &#x27;PUT&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.putJson" id="apidoc.element.restler.restler.putJson">
+        function <span class="apidocSignatureSpan">restler.restler.</span>putJson
+        <span class="apidocSignatureSpan">(url, data, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function putJson(url, data, options) {
+  return json(url, data, options, &#x27;PUT&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var jsonData = { id: 334 };
+rest.postJson(&#x27;http://example.com/action&#x27;, jsonData).on(&#x27;complete&#x27;, function(data, response) {
+  // handle response
+});
+
+// put JSON
+var jsonData = { id: 334 };
+rest.<span class="apidocCodeKeywordSpan">putJson</span>(&#x27;http://example.com/action&#x27;, jsonData).on(&#x27;complete&#x27;,
+function(data, response) {
+  // handle response
+});
+
+```
+
+TODO
+----
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.request" id="apidoc.element.restler.restler.request">
+        function <span class="apidocSignatureSpan">restler.restler.</span>request
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function request(url, options) {
+  var request = new Request(url, options);
+  request.on(&#x27;error&#x27;, function() {});
+  process.nextTick(request.run.bind(request));
+  return request;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (!this.options.data) {
+    this.headers[&#x27;Content-Length&#x27;] = 0;
+  }
+}
+
+var proto = (this.url.protocol == &#x27;https:&#x27;) ? https : http;
+
+this.request = proto.<span class="apidocCodeKeywordSpan">request</span>({
+  host: this.url.hostname,
+  port: this.url.port,
+  path: this._fullPath(),
+  method: this.options.method,
+  headers: this.headers,
+  rejectUnauthorized: this.options.rejectUnauthorized,
+  agent: this.options.agent
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.restler.restler.service" id="apidoc.element.restler.restler.service">
+        function <span class="apidocSignatureSpan">restler.restler.</span>service
+        <span class="apidocSignatureSpan">(constructor, defaults, methods)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function service(constructor, defaults, methods) {
+  constructor.prototype = new Service(defaults || {});
+  mixin(constructor.prototype, methods);
+  return constructor;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  &#x27;sound[file]&#x27;: rest.file(&#x27;doug-e-fresh_the-show.mp3&#x27;, null, 321567, null, &#x27;audio/mpeg&#x27;)
+}
+}).on(&#x27;complete&#x27;, function(data) {
+console.log(data.audio_url);
+});
+
+// create a service constructor for very easy API wrappers a la HTTParty...
+Twitter = rest.<span class="apidocCodeKeywordSpan">service</span>(function(u, p) {
+this.defaults.username = u;
+this.defaults.password = p;
+}, {
+baseURL: &#x27;http://twitter.com&#x27;
+}, {
+update: function(message) {
+  return this.post(&#x27;/statuses/update.json&#x27;, { data: { status: message } });
+...</pre></li>
+    </ul>
+
+
 
 
 </div>
