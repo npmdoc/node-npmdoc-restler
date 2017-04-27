@@ -1,6 +1,6 @@
 # npmdoc-restler
 
-#### api documentation for  [restler (v3.4.0)](https://github.com/danwrong/restler)  [![npm package](https://img.shields.io/npm/v/npmdoc-restler.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-restler) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-restler.svg)](https://travis-ci.org/npmdoc/node-npmdoc-restler)
+#### basic api documentation for  [restler (v3.4.0)](https://github.com/danwrong/restler)  [![npm package](https://img.shields.io/npm/v/npmdoc-restler.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-restler) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-restler.svg)](https://travis-ci.org/npmdoc/node-npmdoc-restler)
 
 #### An HTTP client library for node.js
 
@@ -76,7 +76,8 @@
     "scripts": {
         "test": "node test/all.js"
     },
-    "version": "3.4.0"
+    "version": "3.4.0",
+    "bin": {}
 }
 ```
 
